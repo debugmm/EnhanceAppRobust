@@ -176,23 +176,23 @@
 		16F579E021F890E00025C4B0 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				16F579E121F890E00025C4B0 /* NSMutableArray+Swizzled.h */,
-				16F579E221F890E00025C4B0 /* NSObject+Swizzled.h */,
-				16F579E321F890E00025C4B0 /* NSMutableDictionary+Swizzled.h */,
-				16F579E421F890E00025C4B0 /* NSArray+Swizzled.m */,
-				16F579E521F890E00025C4B0 /* NSMutableIndexSet+Swizzled.h */,
-				16F579E621F890E00025C4B0 /* NSMutableString+Swizzled.m */,
-				16F579E721F890E00025C4B0 /* NSObject+CCategory.h */,
-				16F579E821F890E00025C4B0 /* NSString+Swizzled.h */,
-				16F579E921F890E00025C4B0 /* NSMutableArray+Swizzled.m */,
 				16F579EA21F890E00025C4B0 /* SwizzledHeader.h */,
+				16F579E221F890E00025C4B0 /* NSObject+Swizzled.h */,
 				16F579EB21F890E00025C4B0 /* NSObject+Swizzled.m */,
+				16F579E321F890E00025C4B0 /* NSMutableDictionary+Swizzled.h */,
+				16F579EE21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m */,
+				16F579E721F890E00025C4B0 /* NSObject+CCategory.h */,
+				16F579F021F890E00025C4B0 /* NSObject+CCategory.m */,
+				16F579E121F890E00025C4B0 /* NSMutableArray+Swizzled.h */,
+				16F579E921F890E00025C4B0 /* NSMutableArray+Swizzled.m */,
+				16F579E521F890E00025C4B0 /* NSMutableIndexSet+Swizzled.h */,
 				16F579EC21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m */,
 				16F579ED21F890E00025C4B0 /* NSArray+Swizzled.h */,
-				16F579EE21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m */,
+				16F579E421F890E00025C4B0 /* NSArray+Swizzled.m */,
+				16F579E821F890E00025C4B0 /* NSString+Swizzled.h */,
 				16F579EF21F890E00025C4B0 /* NSString+Swizzled.m */,
-				16F579F021F890E00025C4B0 /* NSObject+CCategory.m */,
 				16F579F121F890E00025C4B0 /* NSMutableString+Swizzled.h */,
+				16F579E621F890E00025C4B0 /* NSMutableString+Swizzled.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
