@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ExceptionCatchManager : NSObject
 
-#pragma mark - life circle
-
 /**
  @brief shared manager(it's singleton)
 
@@ -21,12 +19,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(ExceptionCatchManager *)sharedManager;
 
-#pragma mark - init config
-
 /**
  @brief exception catch init config
  */
 -(void)initConfigExceptionCatch;
+
+/**
+ @brief catch exception(just receive an exception instace for report)
+
+ @param exception an nonull exception obj
+ */
+-(void)catchException:(nonnull NSException *)exception;
 
 @end
 

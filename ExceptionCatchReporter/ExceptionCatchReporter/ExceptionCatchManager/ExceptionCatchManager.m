@@ -45,6 +45,7 @@
     return self;
 }
 
+#pragma mark - pub
 #pragma mark - init config
 -(void)initConfigExceptionCatch{
     
@@ -53,6 +54,23 @@
     [self configMachCatchException];
 }
 
+#pragma mark -
+-(void)catchException:(nonnull NSException *)exception{
+    
+    if(exception==nil ||
+       exception==NULL ||
+       ![exception isKindOfClass:[NSException class]]){
+        return;
+    }
+    
+    NSString *str=[NSString stringWithFormat:@"%@",exception.name];
+    str=[NSString stringWithFormat:@"%@\n%@",str,exception.reason];
+    str=[NSString stringWithFormat:@"%@\n%@",str,exception.callStackSymbols];
+    
+    NSLog(@"%@",str);
+}
+
+#pragma mark - private
 #pragma mark -
 -(void)configExceptionHandler{
     

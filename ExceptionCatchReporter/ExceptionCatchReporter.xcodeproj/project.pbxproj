@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1607725C21F732C20024A5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607725B21F732C20024A5B8 /* AppDelegate.m */; };
-		1607725F21F732C20024A5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607725E21F732C20024A5B8 /* ViewController.m */; };
 		1607726121F732C30024A5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1607726021F732C30024A5B8 /* Assets.xcassets */; };
 		1607726421F732C30024A5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1607726221F732C30024A5B8 /* Main.storyboard */; };
-		1607726721F732C30024A5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607726621F732C30024A5B8 /* main.m */; };
 		1607727221F732C30024A5B8 /* ExceptionCatchReporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607727121F732C30024A5B8 /* ExceptionCatchReporterTests.m */; };
 		1607727D21F732C30024A5B8 /* ExceptionCatchReporterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607727C21F732C30024A5B8 /* ExceptionCatchReporterUITests.m */; };
-		1607728F21F735390024A5B8 /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607728E21F735390024A5B8 /* NSArray+Swizzled.m */; };
-		1607729221F735600024A5B8 /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607729121F735600024A5B8 /* NSObject+CCategory.m */; };
-		1607729521F740320024A5B8 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607729421F740320024A5B8 /* NSObject+Swizzled.m */; };
-		1607729821F741BC0024A5B8 /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607729721F741BC0024A5B8 /* NSMutableArray+Swizzled.m */; };
-		16C1BB2121F8213600E28A87 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C1BB2021F8213600E28A87 /* BSBacktraceLogger.m */; };
-		16C1BB2421F82D7A00E28A87 /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C1BB2321F82D7A00E28A87 /* ExceptionCatchManager.m */; };
+		16F579F521F890E00025C4B0 /* SwizzleMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579DE21F890E00025C4B0 /* SwizzleMethodManager.m */; };
+		16F579F621F890E00025C4B0 /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579E421F890E00025C4B0 /* NSArray+Swizzled.m */; };
+		16F579F721F890E00025C4B0 /* NSMutableString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579E621F890E00025C4B0 /* NSMutableString+Swizzled.m */; };
+		16F579F821F890E00025C4B0 /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579E921F890E00025C4B0 /* NSMutableArray+Swizzled.m */; };
+		16F579F921F890E00025C4B0 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579EB21F890E00025C4B0 /* NSObject+Swizzled.m */; };
+		16F579FA21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579EC21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m */; };
+		16F579FB21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579EE21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m */; };
+		16F579FC21F890E00025C4B0 /* NSString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579EF21F890E00025C4B0 /* NSString+Swizzled.m */; };
+		16F579FD21F890E00025C4B0 /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579F021F890E00025C4B0 /* NSObject+CCategory.m */; };
+		16F579FE21F890E00025C4B0 /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F579F321F890E00025C4B0 /* ExceptionCatchManager.m */; };
+		16F57A0221F8915C0025C4B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F57A0021F8915C0025C4B0 /* ViewController.m */; };
+		16F57A0721F891660025C4B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F57A0521F891660025C4B0 /* main.m */; };
+		16F57A0821F891660025C4B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F57A0621F891660025C4B0 /* Info.plist */; };
+		16F57A0C21F8916E0025C4B0 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F57A0B21F8916D0025C4B0 /* BSBacktraceLogger.m */; };
+		16F57A1021F8917E0025C4B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F57A0F21F8917E0025C4B0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,33 +47,44 @@
 
 /* Begin PBXFileReference section */
 		1607725721F732C20024A5B8 /* ExceptionCatchReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExceptionCatchReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1607725A21F732C20024A5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1607725B21F732C20024A5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1607725D21F732C20024A5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1607725E21F732C20024A5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1607726021F732C30024A5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1607726321F732C30024A5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1607726521F732C30024A5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1607726621F732C30024A5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1607726821F732C30024A5B8 /* ExceptionCatchReporter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExceptionCatchReporter.entitlements; sourceTree = "<group>"; };
 		1607726D21F732C30024A5B8 /* ExceptionCatchReporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExceptionCatchReporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1607727121F732C30024A5B8 /* ExceptionCatchReporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchReporterTests.m; sourceTree = "<group>"; };
 		1607727321F732C30024A5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1607727821F732C30024A5B8 /* ExceptionCatchReporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExceptionCatchReporterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1607727C21F732C30024A5B8 /* ExceptionCatchReporterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchReporterUITests.m; sourceTree = "<group>"; };
 		1607727E21F732C40024A5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1607728D21F735390024A5B8 /* NSArray+Swizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzled.h"; sourceTree = "<group>"; };
-		1607728E21F735390024A5B8 /* NSArray+Swizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzled.m"; sourceTree = "<group>"; };
-		1607729021F735600024A5B8 /* NSObject+CCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCategory.h"; sourceTree = "<group>"; };
-		1607729121F735600024A5B8 /* NSObject+CCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCategory.m"; sourceTree = "<group>"; };
-		1607729321F740320024A5B8 /* NSObject+Swizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
-		1607729421F740320024A5B8 /* NSObject+Swizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
-		1607729621F741BC0024A5B8 /* NSMutableArray+Swizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzled.h"; sourceTree = "<group>"; };
-		1607729721F741BC0024A5B8 /* NSMutableArray+Swizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzled.m"; sourceTree = "<group>"; };
-		16C1BB1F21F8213600E28A87 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
-		16C1BB2021F8213600E28A87 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
-		16C1BB2221F82D7A00E28A87 /* ExceptionCatchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionCatchManager.h; sourceTree = "<group>"; };
-		16C1BB2321F82D7A00E28A87 /* ExceptionCatchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchManager.m; sourceTree = "<group>"; };
+		16F579DE21F890E00025C4B0 /* SwizzleMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodManager.m; sourceTree = "<group>"; };
+		16F579DF21F890E00025C4B0 /* SwizzleMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodManager.h; sourceTree = "<group>"; };
+		16F579E121F890E00025C4B0 /* NSMutableArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzled.h"; sourceTree = "<group>"; };
+		16F579E221F890E00025C4B0 /* NSObject+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
+		16F579E321F890E00025C4B0 /* NSMutableDictionary+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Swizzled.h"; sourceTree = "<group>"; };
+		16F579E421F890E00025C4B0 /* NSArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzled.m"; sourceTree = "<group>"; };
+		16F579E521F890E00025C4B0 /* NSMutableIndexSet+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+Swizzled.h"; sourceTree = "<group>"; };
+		16F579E621F890E00025C4B0 /* NSMutableString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Swizzled.m"; sourceTree = "<group>"; };
+		16F579E721F890E00025C4B0 /* NSObject+CCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCategory.h"; sourceTree = "<group>"; };
+		16F579E821F890E00025C4B0 /* NSString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Swizzled.h"; sourceTree = "<group>"; };
+		16F579E921F890E00025C4B0 /* NSMutableArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzled.m"; sourceTree = "<group>"; };
+		16F579EA21F890E00025C4B0 /* SwizzledHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzledHeader.h; sourceTree = "<group>"; };
+		16F579EB21F890E00025C4B0 /* NSObject+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
+		16F579EC21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+Swizzled.m"; sourceTree = "<group>"; };
+		16F579ED21F890E00025C4B0 /* NSArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzled.h"; sourceTree = "<group>"; };
+		16F579EE21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Swizzled.m"; sourceTree = "<group>"; };
+		16F579EF21F890E00025C4B0 /* NSString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Swizzled.m"; sourceTree = "<group>"; };
+		16F579F021F890E00025C4B0 /* NSObject+CCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCategory.m"; sourceTree = "<group>"; };
+		16F579F121F890E00025C4B0 /* NSMutableString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Swizzled.h"; sourceTree = "<group>"; };
+		16F579F321F890E00025C4B0 /* ExceptionCatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchManager.m; sourceTree = "<group>"; };
+		16F579F421F890E00025C4B0 /* ExceptionCatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionCatchManager.h; sourceTree = "<group>"; };
+		16F57A0021F8915C0025C4B0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16F57A0121F8915C0025C4B0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16F57A0421F891660025C4B0 /* ExceptionCatchReporter.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ExceptionCatchReporter.entitlements; sourceTree = "<group>"; };
+		16F57A0521F891660025C4B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16F57A0621F891660025C4B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F57A0A21F8916D0025C4B0 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		16F57A0B21F8916D0025C4B0 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		16F57A0E21F8917E0025C4B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16F57A0F21F8917E0025C4B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,27 +135,13 @@
 		1607725921F732C20024A5B8 /* ExceptionCatchReporter */ = {
 			isa = PBXGroup;
 			children = (
-				1607725A21F732C20024A5B8 /* AppDelegate.h */,
-				1607725B21F732C20024A5B8 /* AppDelegate.m */,
-				1607725D21F732C20024A5B8 /* ViewController.h */,
-				1607725E21F732C20024A5B8 /* ViewController.m */,
-				16C1BB2221F82D7A00E28A87 /* ExceptionCatchManager.h */,
-				16C1BB2321F82D7A00E28A87 /* ExceptionCatchManager.m */,
-				16C1BB1F21F8213600E28A87 /* BSBacktraceLogger.h */,
-				16C1BB2021F8213600E28A87 /* BSBacktraceLogger.m */,
-				1607729021F735600024A5B8 /* NSObject+CCategory.h */,
-				1607729121F735600024A5B8 /* NSObject+CCategory.m */,
-				1607729321F740320024A5B8 /* NSObject+Swizzled.h */,
-				1607729421F740320024A5B8 /* NSObject+Swizzled.m */,
-				1607728D21F735390024A5B8 /* NSArray+Swizzled.h */,
-				1607728E21F735390024A5B8 /* NSArray+Swizzled.m */,
-				1607729621F741BC0024A5B8 /* NSMutableArray+Swizzled.h */,
-				1607729721F741BC0024A5B8 /* NSMutableArray+Swizzled.m */,
-				1607726021F732C30024A5B8 /* Assets.xcassets */,
-				1607726221F732C30024A5B8 /* Main.storyboard */,
-				1607726521F732C30024A5B8 /* Info.plist */,
-				1607726621F732C30024A5B8 /* main.m */,
-				1607726821F732C30024A5B8 /* ExceptionCatchReporter.entitlements */,
+				16F57A0D21F8917E0025C4B0 /* AppDelegate */,
+				16F57A0321F891660025C4B0 /* Config */,
+				16F579FF21F8915C0025C4B0 /* ViewController */,
+				16F579F221F890E00025C4B0 /* ExceptionCatchManager */,
+				16F579DD21F890E00025C4B0 /* SwizzledManager */,
+				16F57A0921F8916D0025C4B0 /* BacktraceLogger */,
+				16F579E021F890E00025C4B0 /* Categories */,
 			);
 			path = ExceptionCatchReporter;
 			sourceTree = "<group>";
@@ -159,6 +162,87 @@
 				1607727E21F732C40024A5B8 /* Info.plist */,
 			);
 			path = ExceptionCatchReporterUITests;
+			sourceTree = "<group>";
+		};
+		16F579DD21F890E00025C4B0 /* SwizzledManager */ = {
+			isa = PBXGroup;
+			children = (
+				16F579DE21F890E00025C4B0 /* SwizzleMethodManager.m */,
+				16F579DF21F890E00025C4B0 /* SwizzleMethodManager.h */,
+			);
+			path = SwizzledManager;
+			sourceTree = "<group>";
+		};
+		16F579E021F890E00025C4B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16F579E121F890E00025C4B0 /* NSMutableArray+Swizzled.h */,
+				16F579E221F890E00025C4B0 /* NSObject+Swizzled.h */,
+				16F579E321F890E00025C4B0 /* NSMutableDictionary+Swizzled.h */,
+				16F579E421F890E00025C4B0 /* NSArray+Swizzled.m */,
+				16F579E521F890E00025C4B0 /* NSMutableIndexSet+Swizzled.h */,
+				16F579E621F890E00025C4B0 /* NSMutableString+Swizzled.m */,
+				16F579E721F890E00025C4B0 /* NSObject+CCategory.h */,
+				16F579E821F890E00025C4B0 /* NSString+Swizzled.h */,
+				16F579E921F890E00025C4B0 /* NSMutableArray+Swizzled.m */,
+				16F579EA21F890E00025C4B0 /* SwizzledHeader.h */,
+				16F579EB21F890E00025C4B0 /* NSObject+Swizzled.m */,
+				16F579EC21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m */,
+				16F579ED21F890E00025C4B0 /* NSArray+Swizzled.h */,
+				16F579EE21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m */,
+				16F579EF21F890E00025C4B0 /* NSString+Swizzled.m */,
+				16F579F021F890E00025C4B0 /* NSObject+CCategory.m */,
+				16F579F121F890E00025C4B0 /* NSMutableString+Swizzled.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		16F579F221F890E00025C4B0 /* ExceptionCatchManager */ = {
+			isa = PBXGroup;
+			children = (
+				16F579F321F890E00025C4B0 /* ExceptionCatchManager.m */,
+				16F579F421F890E00025C4B0 /* ExceptionCatchManager.h */,
+			);
+			path = ExceptionCatchManager;
+			sourceTree = "<group>";
+		};
+		16F579FF21F8915C0025C4B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16F57A0021F8915C0025C4B0 /* ViewController.m */,
+				16F57A0121F8915C0025C4B0 /* ViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		16F57A0321F891660025C4B0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1607726021F732C30024A5B8 /* Assets.xcassets */,
+				1607726221F732C30024A5B8 /* Main.storyboard */,
+				16F57A0421F891660025C4B0 /* ExceptionCatchReporter.entitlements */,
+				16F57A0521F891660025C4B0 /* main.m */,
+				16F57A0621F891660025C4B0 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		16F57A0921F8916D0025C4B0 /* BacktraceLogger */ = {
+			isa = PBXGroup;
+			children = (
+				16F57A0A21F8916D0025C4B0 /* BSBacktraceLogger.h */,
+				16F57A0B21F8916D0025C4B0 /* BSBacktraceLogger.m */,
+			);
+			path = BacktraceLogger;
+			sourceTree = "<group>";
+		};
+		16F57A0D21F8917E0025C4B0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				16F57A0E21F8917E0025C4B0 /* AppDelegate.h */,
+				16F57A0F21F8917E0025C4B0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +355,7 @@
 			files = (
 				1607726121F732C30024A5B8 /* Assets.xcassets in Resources */,
 				1607726421F732C30024A5B8 /* Main.storyboard in Resources */,
+				16F57A0821F891660025C4B0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,15 +380,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C1BB2121F8213600E28A87 /* BSBacktraceLogger.m in Sources */,
-				1607725F21F732C20024A5B8 /* ViewController.m in Sources */,
-				1607726721F732C30024A5B8 /* main.m in Sources */,
-				16C1BB2421F82D7A00E28A87 /* ExceptionCatchManager.m in Sources */,
-				1607725C21F732C20024A5B8 /* AppDelegate.m in Sources */,
-				1607729521F740320024A5B8 /* NSObject+Swizzled.m in Sources */,
-				1607729821F741BC0024A5B8 /* NSMutableArray+Swizzled.m in Sources */,
-				1607728F21F735390024A5B8 /* NSArray+Swizzled.m in Sources */,
-				1607729221F735600024A5B8 /* NSObject+CCategory.m in Sources */,
+				16F579F821F890E00025C4B0 /* NSMutableArray+Swizzled.m in Sources */,
+				16F579F621F890E00025C4B0 /* NSArray+Swizzled.m in Sources */,
+				16F579F721F890E00025C4B0 /* NSMutableString+Swizzled.m in Sources */,
+				16F579FB21F890E00025C4B0 /* NSMutableDictionary+Swizzled.m in Sources */,
+				16F579FA21F890E00025C4B0 /* NSMutableIndexSet+Swizzled.m in Sources */,
+				16F57A0221F8915C0025C4B0 /* ViewController.m in Sources */,
+				16F57A1021F8917E0025C4B0 /* AppDelegate.m in Sources */,
+				16F579F921F890E00025C4B0 /* NSObject+Swizzled.m in Sources */,
+				16F579FD21F890E00025C4B0 /* NSObject+CCategory.m in Sources */,
+				16F579FE21F890E00025C4B0 /* ExceptionCatchManager.m in Sources */,
+				16F579FC21F890E00025C4B0 /* NSString+Swizzled.m in Sources */,
+				16F57A0C21F8916E0025C4B0 /* BSBacktraceLogger.m in Sources */,
+				16F57A0721F891660025C4B0 /* main.m in Sources */,
+				16F579F521F890E00025C4B0 /* SwizzleMethodManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = ExceptionCatchReporter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ExceptionCatchReporter/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -485,7 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = ExceptionCatchReporter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ExceptionCatchReporter/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

@@ -12,8 +12,13 @@
 @implementation NSArray (Swizzled)
 
 #pragma mark - swizzle config
--(void)initConfigInstanceMethodSwizzle{
++(void)initConfigInstanceMethodSwizzle{
     
+    [NSArray exchangeClassInstanceMethod:[NSArray class] originalSelector:@selector(objectAtIndex:) swizzledSelector:@selector(zz_objectAtIndex:)];
+    
+    [NSArray exchangeClassInstanceMethod:[NSArray class] originalSelector:@selector(objectAtIndexedSubscript:) swizzledSelector:@selector(zz_objectAtIndexedSubscript:)];
+    
+    [NSArray exchangeClassInstanceMethod:[NSArray class] originalSelector:@selector(objectsAtIndexes:) swizzledSelector:@selector(zz_objectsAtIndexes:)];
 }
 
 #pragma mark - swizzling method

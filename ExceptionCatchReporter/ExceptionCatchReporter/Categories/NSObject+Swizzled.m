@@ -12,8 +12,9 @@
 @implementation NSObject (Swizzled)
 
 #pragma mark - swizzle config
--(void)initConfigInstanceMethodSwizzle{
++(void)initConfigInstanceMethodSwizzle{
     
+    [NSObject exchangeClassInstanceMethod:[NSObject class] originalSelector:@selector(valueForUndefinedKey:) swizzledSelector:@selector(zz_valueForUndefinedKey:)];
 }
 
 #pragma mark - swizzling method

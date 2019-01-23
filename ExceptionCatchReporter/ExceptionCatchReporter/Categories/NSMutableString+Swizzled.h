@@ -1,8 +1,8 @@
 //
-//  NSObject+Swizzled.h
+//  NSMutableString+Swizzled.h
 //  ExceptionCatchReporter
 //
-//  Created by wujungao on 2019/1/22.
+//  Created by wujungao on 2019/1/23.
 //  Copyright © 2019 wujungao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (Swizzled)
+@interface NSMutableString (Swizzled)
 
 @end
 

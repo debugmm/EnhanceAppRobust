@@ -8,6 +8,8 @@
 
 #import "NSObject+CCategory.h"
 
+#import "ExceptionCatchManager.h"
+
 #import <objc/runtime.h>
 
 @implementation NSObject (CCategory)
@@ -15,6 +17,7 @@
 #pragma mark - report exception
 +(void)reportException:(nonnull NSException *)exception{
     //do reporting exception
+    [[ExceptionCatchManager sharedManager] catchException:exception];
 }
 
 #pragma mark - method swizzled

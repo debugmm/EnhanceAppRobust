@@ -36,10 +36,14 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
     
-//        [[NSMutableArray arrayWithCapacity:1] insertObject:nil atIndex:0];
+        @try {
+            [[NSMutableArray arrayWithCapacity:1] insertObject:nil atIndex:0];
+        } @catch (NSException *exception) {
+            NSLog(@"exception:%@",exception);
+        }
         
-        char *nullPrt=NULL;
-        nullPrt[0]=1;
+//        char *nullPrt=NULL;
+//        nullPrt[0]=1;
     });
 }
 
