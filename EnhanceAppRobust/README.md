@@ -7,10 +7,5 @@
 ## Usage
 
     通过开启异常捕获与Swizzling，当APP发生异常时，尝试try-catch恢复APP，并且将异常捕获记录用于分析
-     
-## install
-    
-    platform :osx, '10.10'
-
-    pod 'EnhanceAppRobust', :git => 'https://git.tigerbrokers.net/ftiger_ios_group/EnhanceAppRobust.git'
+  
     
