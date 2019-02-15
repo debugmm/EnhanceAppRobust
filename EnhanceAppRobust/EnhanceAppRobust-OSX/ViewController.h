@@ -1,14 +1,14 @@
 //
 //  ViewController.h
-//  EnhanceAppRobust
+//  EnhanceAppRobust-OSX
 //
 //  Created by wujungao on 2019/2/15.
 //  Copyright © 2019 wujungao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : NSViewController
 
 
 @end

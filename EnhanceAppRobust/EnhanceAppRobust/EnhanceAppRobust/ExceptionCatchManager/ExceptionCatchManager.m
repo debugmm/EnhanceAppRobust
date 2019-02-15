@@ -10,12 +10,16 @@
 
 #import "BSBacktraceLogger.h"
 
+#import <TargetConditionals.h>
+
+#import <mach/mach_init.h>
 #import <mach/mach_port.h>
 #import <mach/task.h>
 #include <execinfo.h>
-#import <ExceptionHandling/ExceptionHandling.h>
 
-#import <TargetConditionals.h>
+#if TARGET_OS_OSX
+#import <ExceptionHandling/ExceptionHandling.h>
+#endif
 
 #import "EARHeader.h"
 
@@ -87,16 +91,16 @@
     }
 
     //write to file
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [ExceptionCatchManager writeLogToFile:content];
-    });
+//    });
 }
 
 #pragma mark - private
 #pragma mark -
 -(void)configExceptionHandler{
     
-#if TARGET_OS_MAC
+#if TARGET_OS_OSX
     [[NSExceptionHandler defaultExceptionHandler] setExceptionHandlingMask:NSLogAndHandleEveryExceptionMask];
     [[NSExceptionHandler defaultExceptionHandler] setDelegate:self];
 #else
@@ -207,10 +211,10 @@ void myUnexceptionHandle(NSException *exception){
     }
     
     //write to file
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
     
         [ExceptionCatchManager writeLogToFile:content];
-    });
+//    });
 }
 #endif
 
@@ -229,9 +233,9 @@ void mySignalExceptionHandler(int signal){//(int signal, siginfo_t *siginfo, voi
     
     //write to file
     NSString *content=[BSBacktraceLogger bs_backtraceOfAllThread];
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [ExceptionCatchManager writeLogToFile:content];//[ExceptionCatchManager getFormatStackInfo]];
-    });
+//    });
 }
 
 #pragma mark - mach port handler
@@ -240,9 +244,9 @@ void mySignalExceptionHandler(int signal){//(int signal, siginfo_t *siginfo, voi
     NSString *content=[BSBacktraceLogger bs_backtraceOfAllThread];
     
     //write to file
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [ExceptionCatchManager writeLogToFile:content];
-    });
+//    });
 }
 
 #pragma mark - NSExceptionHandlerDelegate
@@ -252,7 +256,7 @@ void mySignalExceptionHandler(int signal){//(int signal, siginfo_t *siginfo, voi
 //
 //    return YES;
 //}
-#if TARGET_OS_MAC
+#if TARGET_OS_OSX
 -(BOOL)exceptionHandler:(NSExceptionHandler *)sender shouldHandleException:(NSException *)exception mask:(NSUInteger)aMask{
     
 //    NSString *content;
@@ -278,9 +282,9 @@ void mySignalExceptionHandler(int signal){//(int signal, siginfo_t *siginfo, voi
     
     //write to file
     NSString *content=[ExceptionCatchManager getFormatStackInfo];
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [ExceptionCatchManager writeLogToFile:content];
-    });
+//    });
     
     return YES;
 }

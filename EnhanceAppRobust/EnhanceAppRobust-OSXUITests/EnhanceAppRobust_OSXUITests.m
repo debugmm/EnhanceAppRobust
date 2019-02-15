@@ -1,6 +1,6 @@
 //
-//  EnhanceAppRobustUITests.m
-//  EnhanceAppRobustUITests
+//  EnhanceAppRobust_OSXUITests.m
+//  EnhanceAppRobust-OSXUITests
 //
 //  Created by wujungao on 2019/2/15.
 //  Copyright © 2019 wujungao. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface EnhanceAppRobustUITests : XCTestCase
+@interface EnhanceAppRobust_OSXUITests : XCTestCase
 
 @end
 
-@implementation EnhanceAppRobustUITests
+@implementation EnhanceAppRobust_OSXUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

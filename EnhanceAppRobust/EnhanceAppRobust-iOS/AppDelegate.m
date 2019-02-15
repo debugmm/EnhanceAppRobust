@@ -1,12 +1,15 @@
 //
 //  AppDelegate.m
-//  EnhanceAppRobust
+//  EnhanceAppRobust-iOS
 //
 //  Created by wujungao on 2019/2/15.
 //  Copyright © 2019 wujungao. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import "ExceptionCatchManager.h"
+#import "SwizzleMethodManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initConfig];
     return YES;
 }
 
@@ -47,5 +51,22 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - app init config
+-(void)initConfig{
+    
+    [self configExceptionCatch];
+    [self configSizeeleMethodManager];
+}
+
+#pragma mark - config exception catch
+-(void)configExceptionCatch{
+    
+    [[ExceptionCatchManager sharedManager] initConfigExceptionCatch];
+}
+
+-(void)configSizeeleMethodManager{
+    
+    [[SwizzleMethodManager sharedManager] swizzlingInstanceMethod];
+}
 
 @end

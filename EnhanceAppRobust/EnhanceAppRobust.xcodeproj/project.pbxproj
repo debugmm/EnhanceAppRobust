@@ -7,102 +7,242 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1647ACE121FF0A7F00D72848 /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */; };
-		1647ACE221FF0A7F00D72848 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACCB21FF0A7F00D72848 /* BSBacktraceLogger.m */; };
-		1647ACE321FF0A7F00D72848 /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACD021FF0A7F00D72848 /* NSArray+Swizzled.m */; };
-		1647ACE421FF0A7F00D72848 /* NSMutableString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACD221FF0A7F00D72848 /* NSMutableString+Swizzled.m */; };
-		1647ACE521FF0A7F00D72848 /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACD521FF0A7F00D72848 /* NSMutableArray+Swizzled.m */; };
-		1647ACE621FF0A7F00D72848 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACD721FF0A7F00D72848 /* NSObject+Swizzled.m */; };
-		1647ACE721FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACD821FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m */; };
-		1647ACE821FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACDA21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m */; };
-		1647ACE921FF0A7F00D72848 /* NSString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACDB21FF0A7F00D72848 /* NSString+Swizzled.m */; };
-		1647ACEA21FF0A7F00D72848 /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACDC21FF0A7F00D72848 /* NSObject+CCategory.m */; };
-		1647ACEB21FF0A7F00D72848 /* SwizzleMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1647ACDF21FF0A7F00D72848 /* SwizzleMethodManager.m */; };
-		167AAAA921FEAE8200E50C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAAA821FEAE8200E50C27 /* AppDelegate.m */; };
-		167AAAAC21FEAE8200E50C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAAAB21FEAE8200E50C27 /* ViewController.m */; };
-		167AAAAE21FEAE8200E50C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167AAAAD21FEAE8200E50C27 /* Assets.xcassets */; };
-		167AAAB121FEAE8200E50C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167AAAAF21FEAE8200E50C27 /* Main.storyboard */; };
-		167AAAB421FEAE8200E50C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAAB321FEAE8200E50C27 /* main.m */; };
-		167AAABF21FEAE8200E50C27 /* EnhanceAppRobustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAABE21FEAE8200E50C27 /* EnhanceAppRobustTests.m */; };
-		167AAACA21FEAE8200E50C27 /* EnhanceAppRobustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAAC921FEAE8200E50C27 /* EnhanceAppRobustUITests.m */; };
+		16324A6A2216B31600A6DE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324A692216B31600A6DE3B /* AppDelegate.m */; };
+		16324A6D2216B31600A6DE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324A6C2216B31600A6DE3B /* ViewController.m */; };
+		16324A702216B31600A6DE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16324A6E2216B31600A6DE3B /* Main.storyboard */; };
+		16324A722216B31600A6DE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16324A712216B31600A6DE3B /* Assets.xcassets */; };
+		16324A752216B31600A6DE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16324A732216B31600A6DE3B /* LaunchScreen.storyboard */; };
+		16324A782216B31600A6DE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324A772216B31600A6DE3B /* main.m */; };
+		16324A822216B31600A6DE3B /* EnhanceAppRobustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324A812216B31600A6DE3B /* EnhanceAppRobustTests.m */; };
+		16324A8D2216B31600A6DE3B /* EnhanceAppRobustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324A8C2216B31600A6DE3B /* EnhanceAppRobustUITests.m */; };
+		16324AA22216B34700A6DE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AA12216B34700A6DE3B /* AppDelegate.m */; };
+		16324AA52216B34700A6DE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AA42216B34700A6DE3B /* ViewController.m */; };
+		16324AA72216B34700A6DE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16324AA62216B34700A6DE3B /* Assets.xcassets */; };
+		16324AAA2216B34700A6DE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16324AA82216B34700A6DE3B /* Main.storyboard */; };
+		16324AAD2216B34700A6DE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AAC2216B34700A6DE3B /* main.m */; };
+		16324AB82216B34800A6DE3B /* EnhanceAppRobust_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AB72216B34800A6DE3B /* EnhanceAppRobust_OSXTests.m */; };
+		16324AC32216B34800A6DE3B /* EnhanceAppRobust_OSXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AC22216B34800A6DE3B /* EnhanceAppRobust_OSXUITests.m */; };
+		16324AD62216B3B200A6DE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AD52216B3B200A6DE3B /* AppDelegate.m */; };
+		16324AD92216B3B200A6DE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AD82216B3B200A6DE3B /* ViewController.m */; };
+		16324ADC2216B3B200A6DE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16324ADA2216B3B200A6DE3B /* Main.storyboard */; };
+		16324ADE2216B3B200A6DE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16324ADD2216B3B200A6DE3B /* Assets.xcassets */; };
+		16324AE12216B3B200A6DE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16324ADF2216B3B200A6DE3B /* LaunchScreen.storyboard */; };
+		16324AE42216B3B200A6DE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AE32216B3B200A6DE3B /* main.m */; };
+		16324AEE2216B3B200A6DE3B /* EnhanceAppRobust_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AED2216B3B200A6DE3B /* EnhanceAppRobust_iOSTests.m */; };
+		16324AF92216B3B300A6DE3B /* EnhanceAppRobust_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324AF82216B3B300A6DE3B /* EnhanceAppRobust_iOSUITests.m */; };
+		16324B212216B40300A6DE3B /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B062216B40300A6DE3B /* ExceptionCatchManager.m */; };
+		16324B222216B40300A6DE3B /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B062216B40300A6DE3B /* ExceptionCatchManager.m */; };
+		16324B232216B40300A6DE3B /* ExceptionCatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B062216B40300A6DE3B /* ExceptionCatchManager.m */; };
+		16324B242216B40300A6DE3B /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B0A2216B40300A6DE3B /* BSBacktraceLogger.m */; };
+		16324B252216B40300A6DE3B /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B0A2216B40300A6DE3B /* BSBacktraceLogger.m */; };
+		16324B262216B40300A6DE3B /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B0A2216B40300A6DE3B /* BSBacktraceLogger.m */; };
+		16324B272216B40300A6DE3B /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B102216B40300A6DE3B /* NSArray+Swizzled.m */; };
+		16324B282216B40300A6DE3B /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B102216B40300A6DE3B /* NSArray+Swizzled.m */; };
+		16324B292216B40300A6DE3B /* NSArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B102216B40300A6DE3B /* NSArray+Swizzled.m */; };
+		16324B2A2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B122216B40300A6DE3B /* NSMutableString+Swizzled.m */; };
+		16324B2B2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B122216B40300A6DE3B /* NSMutableString+Swizzled.m */; };
+		16324B2C2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B122216B40300A6DE3B /* NSMutableString+Swizzled.m */; };
+		16324B2D2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B152216B40300A6DE3B /* NSMutableArray+Swizzled.m */; };
+		16324B2E2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B152216B40300A6DE3B /* NSMutableArray+Swizzled.m */; };
+		16324B2F2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B152216B40300A6DE3B /* NSMutableArray+Swizzled.m */; };
+		16324B302216B40300A6DE3B /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B172216B40300A6DE3B /* NSObject+Swizzled.m */; };
+		16324B312216B40300A6DE3B /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B172216B40300A6DE3B /* NSObject+Swizzled.m */; };
+		16324B322216B40300A6DE3B /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B172216B40300A6DE3B /* NSObject+Swizzled.m */; };
+		16324B332216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B182216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m */; };
+		16324B342216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B182216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m */; };
+		16324B352216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B182216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m */; };
+		16324B362216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1A2216B40300A6DE3B /* NSMutableDictionary+Swizzled.m */; };
+		16324B372216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1A2216B40300A6DE3B /* NSMutableDictionary+Swizzled.m */; };
+		16324B382216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1A2216B40300A6DE3B /* NSMutableDictionary+Swizzled.m */; };
+		16324B392216B40300A6DE3B /* NSString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1B2216B40300A6DE3B /* NSString+Swizzled.m */; };
+		16324B3A2216B40300A6DE3B /* NSString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1B2216B40300A6DE3B /* NSString+Swizzled.m */; };
+		16324B3B2216B40300A6DE3B /* NSString+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1B2216B40300A6DE3B /* NSString+Swizzled.m */; };
+		16324B3C2216B40300A6DE3B /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1C2216B40300A6DE3B /* NSObject+CCategory.m */; };
+		16324B3D2216B40300A6DE3B /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1C2216B40300A6DE3B /* NSObject+CCategory.m */; };
+		16324B3E2216B40300A6DE3B /* NSObject+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1C2216B40300A6DE3B /* NSObject+CCategory.m */; };
+		16324B3F2216B40300A6DE3B /* SwizzleMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1F2216B40300A6DE3B /* SwizzleMethodManager.m */; };
+		16324B402216B40300A6DE3B /* SwizzleMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1F2216B40300A6DE3B /* SwizzleMethodManager.m */; };
+		16324B412216B40300A6DE3B /* SwizzleMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16324B1F2216B40300A6DE3B /* SwizzleMethodManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		167AAABB21FEAE8200E50C27 /* PBXContainerItemProxy */ = {
+		16324A7E2216B31600A6DE3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 167AAA9C21FEAE8100E50C27 /* Project object */;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 167AAAA321FEAE8200E50C27;
+			remoteGlobalIDString = 16324A642216B31600A6DE3B;
 			remoteInfo = EnhanceAppRobust;
 		};
-		167AAAC621FEAE8200E50C27 /* PBXContainerItemProxy */ = {
+		16324A892216B31600A6DE3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 167AAA9C21FEAE8100E50C27 /* Project object */;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 167AAAA321FEAE8200E50C27;
+			remoteGlobalIDString = 16324A642216B31600A6DE3B;
 			remoteInfo = EnhanceAppRobust;
+		};
+		16324AB42216B34800A6DE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16324A9D2216B34700A6DE3B;
+			remoteInfo = "EnhanceAppRobust-OSX";
+		};
+		16324ABF2216B34800A6DE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16324A9D2216B34700A6DE3B;
+			remoteInfo = "EnhanceAppRobust-OSX";
+		};
+		16324AEA2216B3B200A6DE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16324AD12216B3B200A6DE3B;
+			remoteInfo = "EnhanceAppRobust-iOS";
+		};
+		16324AF52216B3B300A6DE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16324A5D2216B31600A6DE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16324AD12216B3B200A6DE3B;
+			remoteInfo = "EnhanceAppRobust-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		161F08F22213FF0300AE276F /* EARHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EARHeader.h; sourceTree = "<group>"; };
-		1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchManager.m; sourceTree = "<group>"; };
-		1647ACC821FF0A7F00D72848 /* ExceptionCatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionCatchManager.h; sourceTree = "<group>"; };
-		1647ACCA21FF0A7F00D72848 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
-		1647ACCB21FF0A7F00D72848 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
-		1647ACCD21FF0A7F00D72848 /* NSMutableArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACCE21FF0A7F00D72848 /* NSObject+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACCF21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACD021FF0A7F00D72848 /* NSArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACD121FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACD221FF0A7F00D72848 /* NSMutableString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACD321FF0A7F00D72848 /* NSObject+CCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCategory.h"; sourceTree = "<group>"; };
-		1647ACD421FF0A7F00D72848 /* NSString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACD521FF0A7F00D72848 /* NSMutableArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACD621FF0A7F00D72848 /* SwizzledHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzledHeader.h; sourceTree = "<group>"; };
-		1647ACD721FF0A7F00D72848 /* NSObject+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACD821FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACD921FF0A7F00D72848 /* NSArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACDA21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACDB21FF0A7F00D72848 /* NSString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Swizzled.m"; sourceTree = "<group>"; };
-		1647ACDC21FF0A7F00D72848 /* NSObject+CCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCategory.m"; sourceTree = "<group>"; };
-		1647ACDD21FF0A7F00D72848 /* NSMutableString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Swizzled.h"; sourceTree = "<group>"; };
-		1647ACDF21FF0A7F00D72848 /* SwizzleMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodManager.m; sourceTree = "<group>"; };
-		1647ACE021FF0A7F00D72848 /* SwizzleMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodManager.h; sourceTree = "<group>"; };
-		167AAAA421FEAE8200E50C27 /* EnhanceAppRobust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhanceAppRobust.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		167AAAA721FEAE8200E50C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		167AAAA821FEAE8200E50C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		167AAAAA21FEAE8200E50C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		167AAAAB21FEAE8200E50C27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		167AAAAD21FEAE8200E50C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		167AAAB021FEAE8200E50C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		167AAAB221FEAE8200E50C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		167AAAB321FEAE8200E50C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		167AAAB521FEAE8200E50C27 /* EnhanceAppRobust.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnhanceAppRobust.entitlements; sourceTree = "<group>"; };
-		167AAABA21FEAE8200E50C27 /* EnhanceAppRobustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhanceAppRobustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		167AAABE21FEAE8200E50C27 /* EnhanceAppRobustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobustTests.m; sourceTree = "<group>"; };
-		167AAAC021FEAE8200E50C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		167AAAC521FEAE8200E50C27 /* EnhanceAppRobustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhanceAppRobustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		167AAAC921FEAE8200E50C27 /* EnhanceAppRobustUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobustUITests.m; sourceTree = "<group>"; };
-		167AAACB21FEAE8200E50C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324A652216B31600A6DE3B /* EnhanceAppRobust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhanceAppRobust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324A682216B31600A6DE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16324A692216B31600A6DE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16324A6B2216B31600A6DE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16324A6C2216B31600A6DE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16324A6F2216B31600A6DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16324A712216B31600A6DE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16324A742216B31600A6DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16324A762216B31600A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324A772216B31600A6DE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16324A7D2216B31600A6DE3B /* EnhanceAppRobustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhanceAppRobustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324A812216B31600A6DE3B /* EnhanceAppRobustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobustTests.m; sourceTree = "<group>"; };
+		16324A832216B31600A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324A882216B31600A6DE3B /* EnhanceAppRobustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhanceAppRobustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324A8C2216B31600A6DE3B /* EnhanceAppRobustUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobustUITests.m; sourceTree = "<group>"; };
+		16324A8E2216B31600A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324A9E2216B34700A6DE3B /* EnhanceAppRobust-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EnhanceAppRobust-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AA02216B34700A6DE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16324AA12216B34700A6DE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16324AA32216B34700A6DE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16324AA42216B34700A6DE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16324AA62216B34700A6DE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16324AA92216B34700A6DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16324AAB2216B34700A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324AAC2216B34700A6DE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16324AAE2216B34700A6DE3B /* EnhanceAppRobust_OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnhanceAppRobust_OSX.entitlements; sourceTree = "<group>"; };
+		16324AB32216B34800A6DE3B /* EnhanceAppRobust-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EnhanceAppRobust-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AB72216B34800A6DE3B /* EnhanceAppRobust_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobust_OSXTests.m; sourceTree = "<group>"; };
+		16324AB92216B34800A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324ABE2216B34800A6DE3B /* EnhanceAppRobust-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EnhanceAppRobust-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AC22216B34800A6DE3B /* EnhanceAppRobust_OSXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobust_OSXUITests.m; sourceTree = "<group>"; };
+		16324AC42216B34800A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324AD22216B3B200A6DE3B /* EnhanceAppRobust-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EnhanceAppRobust-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AD42216B3B200A6DE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16324AD52216B3B200A6DE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16324AD72216B3B200A6DE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16324AD82216B3B200A6DE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16324ADB2216B3B200A6DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16324ADD2216B3B200A6DE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16324AE02216B3B200A6DE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16324AE22216B3B200A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324AE32216B3B200A6DE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16324AE92216B3B200A6DE3B /* EnhanceAppRobust-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EnhanceAppRobust-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AED2216B3B200A6DE3B /* EnhanceAppRobust_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobust_iOSTests.m; sourceTree = "<group>"; };
+		16324AEF2216B3B200A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324AF42216B3B200A6DE3B /* EnhanceAppRobust-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EnhanceAppRobust-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16324AF82216B3B300A6DE3B /* EnhanceAppRobust_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhanceAppRobust_iOSUITests.m; sourceTree = "<group>"; };
+		16324AFA2216B3B300A6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16324B062216B40300A6DE3B /* ExceptionCatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchManager.m; sourceTree = "<group>"; };
+		16324B072216B40300A6DE3B /* ExceptionCatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionCatchManager.h; sourceTree = "<group>"; };
+		16324B092216B40300A6DE3B /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		16324B0A2216B40300A6DE3B /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		16324B0B2216B40300A6DE3B /* EARHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EARHeader.h; sourceTree = "<group>"; };
+		16324B0D2216B40300A6DE3B /* NSMutableArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzled.h"; sourceTree = "<group>"; };
+		16324B0E2216B40300A6DE3B /* NSObject+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
+		16324B0F2216B40300A6DE3B /* NSMutableDictionary+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Swizzled.h"; sourceTree = "<group>"; };
+		16324B102216B40300A6DE3B /* NSArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzled.m"; sourceTree = "<group>"; };
+		16324B112216B40300A6DE3B /* NSMutableIndexSet+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+Swizzled.h"; sourceTree = "<group>"; };
+		16324B122216B40300A6DE3B /* NSMutableString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Swizzled.m"; sourceTree = "<group>"; };
+		16324B132216B40300A6DE3B /* NSObject+CCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCategory.h"; sourceTree = "<group>"; };
+		16324B142216B40300A6DE3B /* NSString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Swizzled.h"; sourceTree = "<group>"; };
+		16324B152216B40300A6DE3B /* NSMutableArray+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzled.m"; sourceTree = "<group>"; };
+		16324B162216B40300A6DE3B /* SwizzledHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzledHeader.h; sourceTree = "<group>"; };
+		16324B172216B40300A6DE3B /* NSObject+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
+		16324B182216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+Swizzled.m"; sourceTree = "<group>"; };
+		16324B192216B40300A6DE3B /* NSArray+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzled.h"; sourceTree = "<group>"; };
+		16324B1A2216B40300A6DE3B /* NSMutableDictionary+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Swizzled.m"; sourceTree = "<group>"; };
+		16324B1B2216B40300A6DE3B /* NSString+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Swizzled.m"; sourceTree = "<group>"; };
+		16324B1C2216B40300A6DE3B /* NSObject+CCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCategory.m"; sourceTree = "<group>"; };
+		16324B1D2216B40300A6DE3B /* NSMutableString+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Swizzled.h"; sourceTree = "<group>"; };
+		16324B1F2216B40300A6DE3B /* SwizzleMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodManager.m; sourceTree = "<group>"; };
+		16324B202216B40300A6DE3B /* SwizzleMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		167AAAA121FEAE8200E50C27 /* Frameworks */ = {
+		16324A622216B31600A6DE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAB721FEAE8200E50C27 /* Frameworks */ = {
+		16324A7A2216B31600A6DE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAC221FEAE8200E50C27 /* Frameworks */ = {
+		16324A852216B31600A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324A9B2216B34700A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AB02216B34800A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324ABB2216B34800A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324ACF2216B3B200A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AE62216B3B200A6DE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AF12216B3B200A6DE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,134 +252,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1647ACC521FF0A7F00D72848 /* EnhanceAppRobust */ = {
+		16324A5C2216B31600A6DE3B = {
 			isa = PBXGroup;
 			children = (
-				1647ACC921FF0A7F00D72848 /* BacktraceLogger */,
-				1647ACCC21FF0A7F00D72848 /* Categories */,
-				1647ACC621FF0A7F00D72848 /* ExceptionCatchManager */,
-				1647ACDE21FF0A7F00D72848 /* SwizzledManager */,
-				161F08F22213FF0300AE276F /* EARHeader.h */,
-			);
-			path = EnhanceAppRobust;
-			sourceTree = "<group>";
-		};
-		1647ACC621FF0A7F00D72848 /* ExceptionCatchManager */ = {
-			isa = PBXGroup;
-			children = (
-				1647ACC821FF0A7F00D72848 /* ExceptionCatchManager.h */,
-				1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */,
-			);
-			path = ExceptionCatchManager;
-			sourceTree = "<group>";
-		};
-		1647ACC921FF0A7F00D72848 /* BacktraceLogger */ = {
-			isa = PBXGroup;
-			children = (
-				1647ACCA21FF0A7F00D72848 /* BSBacktraceLogger.h */,
-				1647ACCB21FF0A7F00D72848 /* BSBacktraceLogger.m */,
-			);
-			path = BacktraceLogger;
-			sourceTree = "<group>";
-		};
-		1647ACCC21FF0A7F00D72848 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				1647ACD921FF0A7F00D72848 /* NSArray+Swizzled.h */,
-				1647ACD021FF0A7F00D72848 /* NSArray+Swizzled.m */,
-				1647ACCD21FF0A7F00D72848 /* NSMutableArray+Swizzled.h */,
-				1647ACD521FF0A7F00D72848 /* NSMutableArray+Swizzled.m */,
-				1647ACCF21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.h */,
-				1647ACDA21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m */,
-				1647ACD121FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.h */,
-				1647ACD821FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m */,
-				1647ACDD21FF0A7F00D72848 /* NSMutableString+Swizzled.h */,
-				1647ACD221FF0A7F00D72848 /* NSMutableString+Swizzled.m */,
-				1647ACD321FF0A7F00D72848 /* NSObject+CCategory.h */,
-				1647ACDC21FF0A7F00D72848 /* NSObject+CCategory.m */,
-				1647ACCE21FF0A7F00D72848 /* NSObject+Swizzled.h */,
-				1647ACD721FF0A7F00D72848 /* NSObject+Swizzled.m */,
-				1647ACD421FF0A7F00D72848 /* NSString+Swizzled.h */,
-				1647ACDB21FF0A7F00D72848 /* NSString+Swizzled.m */,
-				1647ACD621FF0A7F00D72848 /* SwizzledHeader.h */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		1647ACDE21FF0A7F00D72848 /* SwizzledManager */ = {
-			isa = PBXGroup;
-			children = (
-				1647ACE021FF0A7F00D72848 /* SwizzleMethodManager.h */,
-				1647ACDF21FF0A7F00D72848 /* SwizzleMethodManager.m */,
-			);
-			path = SwizzledManager;
-			sourceTree = "<group>";
-		};
-		167AAA9B21FEAE8100E50C27 = {
-			isa = PBXGroup;
-			children = (
-				167AAAA621FEAE8200E50C27 /* EnhanceAppRobust */,
-				167AAABD21FEAE8200E50C27 /* EnhanceAppRobustTests */,
-				167AAAC821FEAE8200E50C27 /* EnhanceAppRobustUITests */,
-				167AAAA521FEAE8200E50C27 /* Products */,
+				16324A672216B31600A6DE3B /* EnhanceAppRobust */,
+				16324A802216B31600A6DE3B /* EnhanceAppRobustTests */,
+				16324A8B2216B31600A6DE3B /* EnhanceAppRobustUITests */,
+				16324A9F2216B34700A6DE3B /* EnhanceAppRobust-OSX */,
+				16324AB62216B34800A6DE3B /* EnhanceAppRobust-OSXTests */,
+				16324AC12216B34800A6DE3B /* EnhanceAppRobust-OSXUITests */,
+				16324AD32216B3B200A6DE3B /* EnhanceAppRobust-iOS */,
+				16324AEC2216B3B200A6DE3B /* EnhanceAppRobust-iOSTests */,
+				16324AF72216B3B300A6DE3B /* EnhanceAppRobust-iOSUITests */,
+				16324A662216B31600A6DE3B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		167AAAA521FEAE8200E50C27 /* Products */ = {
+		16324A662216B31600A6DE3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				167AAAA421FEAE8200E50C27 /* EnhanceAppRobust.app */,
-				167AAABA21FEAE8200E50C27 /* EnhanceAppRobustTests.xctest */,
-				167AAAC521FEAE8200E50C27 /* EnhanceAppRobustUITests.xctest */,
+				16324A652216B31600A6DE3B /* EnhanceAppRobust.app */,
+				16324A7D2216B31600A6DE3B /* EnhanceAppRobustTests.xctest */,
+				16324A882216B31600A6DE3B /* EnhanceAppRobustUITests.xctest */,
+				16324A9E2216B34700A6DE3B /* EnhanceAppRobust-OSX.app */,
+				16324AB32216B34800A6DE3B /* EnhanceAppRobust-OSXTests.xctest */,
+				16324ABE2216B34800A6DE3B /* EnhanceAppRobust-OSXUITests.xctest */,
+				16324AD22216B3B200A6DE3B /* EnhanceAppRobust-iOS.app */,
+				16324AE92216B3B200A6DE3B /* EnhanceAppRobust-iOSTests.xctest */,
+				16324AF42216B3B200A6DE3B /* EnhanceAppRobust-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		167AAAA621FEAE8200E50C27 /* EnhanceAppRobust */ = {
+		16324A672216B31600A6DE3B /* EnhanceAppRobust */ = {
 			isa = PBXGroup;
 			children = (
-				1647ACC521FF0A7F00D72848 /* EnhanceAppRobust */,
-				167AAAA721FEAE8200E50C27 /* AppDelegate.h */,
-				167AAAA821FEAE8200E50C27 /* AppDelegate.m */,
-				167AAAAA21FEAE8200E50C27 /* ViewController.h */,
-				167AAAAB21FEAE8200E50C27 /* ViewController.m */,
-				167AAAAD21FEAE8200E50C27 /* Assets.xcassets */,
-				167AAAAF21FEAE8200E50C27 /* Main.storyboard */,
-				167AAAB221FEAE8200E50C27 /* Info.plist */,
-				167AAAB321FEAE8200E50C27 /* main.m */,
-				167AAAB521FEAE8200E50C27 /* EnhanceAppRobust.entitlements */,
+				16324B042216B40300A6DE3B /* EnhanceAppRobust */,
+				16324A682216B31600A6DE3B /* AppDelegate.h */,
+				16324A692216B31600A6DE3B /* AppDelegate.m */,
+				16324A6B2216B31600A6DE3B /* ViewController.h */,
+				16324A6C2216B31600A6DE3B /* ViewController.m */,
+				16324A6E2216B31600A6DE3B /* Main.storyboard */,
+				16324A712216B31600A6DE3B /* Assets.xcassets */,
+				16324A732216B31600A6DE3B /* LaunchScreen.storyboard */,
+				16324A762216B31600A6DE3B /* Info.plist */,
+				16324A772216B31600A6DE3B /* main.m */,
 			);
 			path = EnhanceAppRobust;
 			sourceTree = "<group>";
 		};
-		167AAABD21FEAE8200E50C27 /* EnhanceAppRobustTests */ = {
+		16324A802216B31600A6DE3B /* EnhanceAppRobustTests */ = {
 			isa = PBXGroup;
 			children = (
-				167AAABE21FEAE8200E50C27 /* EnhanceAppRobustTests.m */,
-				167AAAC021FEAE8200E50C27 /* Info.plist */,
+				16324A812216B31600A6DE3B /* EnhanceAppRobustTests.m */,
+				16324A832216B31600A6DE3B /* Info.plist */,
 			);
 			path = EnhanceAppRobustTests;
 			sourceTree = "<group>";
 		};
-		167AAAC821FEAE8200E50C27 /* EnhanceAppRobustUITests */ = {
+		16324A8B2216B31600A6DE3B /* EnhanceAppRobustUITests */ = {
 			isa = PBXGroup;
 			children = (
-				167AAAC921FEAE8200E50C27 /* EnhanceAppRobustUITests.m */,
-				167AAACB21FEAE8200E50C27 /* Info.plist */,
+				16324A8C2216B31600A6DE3B /* EnhanceAppRobustUITests.m */,
+				16324A8E2216B31600A6DE3B /* Info.plist */,
 			);
 			path = EnhanceAppRobustUITests;
+			sourceTree = "<group>";
+		};
+		16324A9F2216B34700A6DE3B /* EnhanceAppRobust-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				16324AA02216B34700A6DE3B /* AppDelegate.h */,
+				16324AA12216B34700A6DE3B /* AppDelegate.m */,
+				16324AA32216B34700A6DE3B /* ViewController.h */,
+				16324AA42216B34700A6DE3B /* ViewController.m */,
+				16324AA62216B34700A6DE3B /* Assets.xcassets */,
+				16324AA82216B34700A6DE3B /* Main.storyboard */,
+				16324AAB2216B34700A6DE3B /* Info.plist */,
+				16324AAC2216B34700A6DE3B /* main.m */,
+				16324AAE2216B34700A6DE3B /* EnhanceAppRobust_OSX.entitlements */,
+			);
+			path = "EnhanceAppRobust-OSX";
+			sourceTree = "<group>";
+		};
+		16324AB62216B34800A6DE3B /* EnhanceAppRobust-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				16324AB72216B34800A6DE3B /* EnhanceAppRobust_OSXTests.m */,
+				16324AB92216B34800A6DE3B /* Info.plist */,
+			);
+			path = "EnhanceAppRobust-OSXTests";
+			sourceTree = "<group>";
+		};
+		16324AC12216B34800A6DE3B /* EnhanceAppRobust-OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16324AC22216B34800A6DE3B /* EnhanceAppRobust_OSXUITests.m */,
+				16324AC42216B34800A6DE3B /* Info.plist */,
+			);
+			path = "EnhanceAppRobust-OSXUITests";
+			sourceTree = "<group>";
+		};
+		16324AD32216B3B200A6DE3B /* EnhanceAppRobust-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				16324AD42216B3B200A6DE3B /* AppDelegate.h */,
+				16324AD52216B3B200A6DE3B /* AppDelegate.m */,
+				16324AD72216B3B200A6DE3B /* ViewController.h */,
+				16324AD82216B3B200A6DE3B /* ViewController.m */,
+				16324ADA2216B3B200A6DE3B /* Main.storyboard */,
+				16324ADD2216B3B200A6DE3B /* Assets.xcassets */,
+				16324ADF2216B3B200A6DE3B /* LaunchScreen.storyboard */,
+				16324AE22216B3B200A6DE3B /* Info.plist */,
+				16324AE32216B3B200A6DE3B /* main.m */,
+			);
+			path = "EnhanceAppRobust-iOS";
+			sourceTree = "<group>";
+		};
+		16324AEC2216B3B200A6DE3B /* EnhanceAppRobust-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				16324AED2216B3B200A6DE3B /* EnhanceAppRobust_iOSTests.m */,
+				16324AEF2216B3B200A6DE3B /* Info.plist */,
+			);
+			path = "EnhanceAppRobust-iOSTests";
+			sourceTree = "<group>";
+		};
+		16324AF72216B3B300A6DE3B /* EnhanceAppRobust-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16324AF82216B3B300A6DE3B /* EnhanceAppRobust_iOSUITests.m */,
+				16324AFA2216B3B300A6DE3B /* Info.plist */,
+			);
+			path = "EnhanceAppRobust-iOSUITests";
+			sourceTree = "<group>";
+		};
+		16324B042216B40300A6DE3B /* EnhanceAppRobust */ = {
+			isa = PBXGroup;
+			children = (
+				16324B0B2216B40300A6DE3B /* EARHeader.h */,
+				16324B052216B40300A6DE3B /* ExceptionCatchManager */,
+				16324B082216B40300A6DE3B /* BacktraceLogger */,
+				16324B0C2216B40300A6DE3B /* Categories */,
+				16324B1E2216B40300A6DE3B /* SwizzledManager */,
+			);
+			path = EnhanceAppRobust;
+			sourceTree = "<group>";
+		};
+		16324B052216B40300A6DE3B /* ExceptionCatchManager */ = {
+			isa = PBXGroup;
+			children = (
+				16324B072216B40300A6DE3B /* ExceptionCatchManager.h */,
+				16324B062216B40300A6DE3B /* ExceptionCatchManager.m */,
+			);
+			path = ExceptionCatchManager;
+			sourceTree = "<group>";
+		};
+		16324B082216B40300A6DE3B /* BacktraceLogger */ = {
+			isa = PBXGroup;
+			children = (
+				16324B092216B40300A6DE3B /* BSBacktraceLogger.h */,
+				16324B0A2216B40300A6DE3B /* BSBacktraceLogger.m */,
+			);
+			path = BacktraceLogger;
+			sourceTree = "<group>";
+		};
+		16324B0C2216B40300A6DE3B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16324B192216B40300A6DE3B /* NSArray+Swizzled.h */,
+				16324B102216B40300A6DE3B /* NSArray+Swizzled.m */,
+				16324B0D2216B40300A6DE3B /* NSMutableArray+Swizzled.h */,
+				16324B152216B40300A6DE3B /* NSMutableArray+Swizzled.m */,
+				16324B0F2216B40300A6DE3B /* NSMutableDictionary+Swizzled.h */,
+				16324B1A2216B40300A6DE3B /* NSMutableDictionary+Swizzled.m */,
+				16324B112216B40300A6DE3B /* NSMutableIndexSet+Swizzled.h */,
+				16324B182216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m */,
+				16324B1D2216B40300A6DE3B /* NSMutableString+Swizzled.h */,
+				16324B122216B40300A6DE3B /* NSMutableString+Swizzled.m */,
+				16324B132216B40300A6DE3B /* NSObject+CCategory.h */,
+				16324B1C2216B40300A6DE3B /* NSObject+CCategory.m */,
+				16324B0E2216B40300A6DE3B /* NSObject+Swizzled.h */,
+				16324B172216B40300A6DE3B /* NSObject+Swizzled.m */,
+				16324B142216B40300A6DE3B /* NSString+Swizzled.h */,
+				16324B1B2216B40300A6DE3B /* NSString+Swizzled.m */,
+				16324B162216B40300A6DE3B /* SwizzledHeader.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		16324B1E2216B40300A6DE3B /* SwizzledManager */ = {
+			isa = PBXGroup;
+			children = (
+				16324B202216B40300A6DE3B /* SwizzleMethodManager.h */,
+				16324B1F2216B40300A6DE3B /* SwizzleMethodManager.m */,
+			);
+			path = SwizzledManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		167AAAA321FEAE8200E50C27 /* EnhanceAppRobust */ = {
+		16324A642216B31600A6DE3B /* EnhanceAppRobust */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167AAACE21FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobust" */;
+			buildConfigurationList = 16324A912216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust" */;
 			buildPhases = (
-				167AAAA021FEAE8200E50C27 /* Sources */,
-				167AAAA121FEAE8200E50C27 /* Frameworks */,
-				167AAAA221FEAE8200E50C27 /* Resources */,
+				16324A612216B31600A6DE3B /* Sources */,
+				16324A622216B31600A6DE3B /* Frameworks */,
+				16324A632216B31600A6DE3B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -247,73 +467,196 @@
 			);
 			name = EnhanceAppRobust;
 			productName = EnhanceAppRobust;
-			productReference = 167AAAA421FEAE8200E50C27 /* EnhanceAppRobust.app */;
+			productReference = 16324A652216B31600A6DE3B /* EnhanceAppRobust.app */;
 			productType = "com.apple.product-type.application";
 		};
-		167AAAB921FEAE8200E50C27 /* EnhanceAppRobustTests */ = {
+		16324A7C2216B31600A6DE3B /* EnhanceAppRobustTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167AAAD121FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobustTests" */;
+			buildConfigurationList = 16324A942216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobustTests" */;
 			buildPhases = (
-				167AAAB621FEAE8200E50C27 /* Sources */,
-				167AAAB721FEAE8200E50C27 /* Frameworks */,
-				167AAAB821FEAE8200E50C27 /* Resources */,
+				16324A792216B31600A6DE3B /* Sources */,
+				16324A7A2216B31600A6DE3B /* Frameworks */,
+				16324A7B2216B31600A6DE3B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				167AAABC21FEAE8200E50C27 /* PBXTargetDependency */,
+				16324A7F2216B31600A6DE3B /* PBXTargetDependency */,
 			);
 			name = EnhanceAppRobustTests;
 			productName = EnhanceAppRobustTests;
-			productReference = 167AAABA21FEAE8200E50C27 /* EnhanceAppRobustTests.xctest */;
+			productReference = 16324A7D2216B31600A6DE3B /* EnhanceAppRobustTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		167AAAC421FEAE8200E50C27 /* EnhanceAppRobustUITests */ = {
+		16324A872216B31600A6DE3B /* EnhanceAppRobustUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 167AAAD421FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobustUITests" */;
+			buildConfigurationList = 16324A972216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobustUITests" */;
 			buildPhases = (
-				167AAAC121FEAE8200E50C27 /* Sources */,
-				167AAAC221FEAE8200E50C27 /* Frameworks */,
-				167AAAC321FEAE8200E50C27 /* Resources */,
+				16324A842216B31600A6DE3B /* Sources */,
+				16324A852216B31600A6DE3B /* Frameworks */,
+				16324A862216B31600A6DE3B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				167AAAC721FEAE8200E50C27 /* PBXTargetDependency */,
+				16324A8A2216B31600A6DE3B /* PBXTargetDependency */,
 			);
 			name = EnhanceAppRobustUITests;
 			productName = EnhanceAppRobustUITests;
-			productReference = 167AAAC521FEAE8200E50C27 /* EnhanceAppRobustUITests.xctest */;
+			productReference = 16324A882216B31600A6DE3B /* EnhanceAppRobustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		16324A9D2216B34700A6DE3B /* EnhanceAppRobust-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324AC52216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSX" */;
+			buildPhases = (
+				16324A9A2216B34700A6DE3B /* Sources */,
+				16324A9B2216B34700A6DE3B /* Frameworks */,
+				16324A9C2216B34700A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EnhanceAppRobust-OSX";
+			productName = "EnhanceAppRobust-OSX";
+			productReference = 16324A9E2216B34700A6DE3B /* EnhanceAppRobust-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16324AB22216B34800A6DE3B /* EnhanceAppRobust-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324AC82216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSXTests" */;
+			buildPhases = (
+				16324AAF2216B34800A6DE3B /* Sources */,
+				16324AB02216B34800A6DE3B /* Frameworks */,
+				16324AB12216B34800A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16324AB52216B34800A6DE3B /* PBXTargetDependency */,
+			);
+			name = "EnhanceAppRobust-OSXTests";
+			productName = "EnhanceAppRobust-OSXTests";
+			productReference = 16324AB32216B34800A6DE3B /* EnhanceAppRobust-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16324ABD2216B34800A6DE3B /* EnhanceAppRobust-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324ACB2216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSXUITests" */;
+			buildPhases = (
+				16324ABA2216B34800A6DE3B /* Sources */,
+				16324ABB2216B34800A6DE3B /* Frameworks */,
+				16324ABC2216B34800A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16324AC02216B34800A6DE3B /* PBXTargetDependency */,
+			);
+			name = "EnhanceAppRobust-OSXUITests";
+			productName = "EnhanceAppRobust-OSXUITests";
+			productReference = 16324ABE2216B34800A6DE3B /* EnhanceAppRobust-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		16324AD12216B3B200A6DE3B /* EnhanceAppRobust-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324AFB2216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOS" */;
+			buildPhases = (
+				16324ACE2216B3B200A6DE3B /* Sources */,
+				16324ACF2216B3B200A6DE3B /* Frameworks */,
+				16324AD02216B3B200A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EnhanceAppRobust-iOS";
+			productName = "EnhanceAppRobust-iOS";
+			productReference = 16324AD22216B3B200A6DE3B /* EnhanceAppRobust-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16324AE82216B3B200A6DE3B /* EnhanceAppRobust-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324AFE2216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOSTests" */;
+			buildPhases = (
+				16324AE52216B3B200A6DE3B /* Sources */,
+				16324AE62216B3B200A6DE3B /* Frameworks */,
+				16324AE72216B3B200A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16324AEB2216B3B200A6DE3B /* PBXTargetDependency */,
+			);
+			name = "EnhanceAppRobust-iOSTests";
+			productName = "EnhanceAppRobust-iOSTests";
+			productReference = 16324AE92216B3B200A6DE3B /* EnhanceAppRobust-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16324AF32216B3B200A6DE3B /* EnhanceAppRobust-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16324B012216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOSUITests" */;
+			buildPhases = (
+				16324AF02216B3B200A6DE3B /* Sources */,
+				16324AF12216B3B200A6DE3B /* Frameworks */,
+				16324AF22216B3B200A6DE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16324AF62216B3B300A6DE3B /* PBXTargetDependency */,
+			);
+			name = "EnhanceAppRobust-iOSUITests";
+			productName = "EnhanceAppRobust-iOSUITests";
+			productReference = 16324AF42216B3B200A6DE3B /* EnhanceAppRobust-iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		167AAA9C21FEAE8100E50C27 /* Project object */ = {
+		16324A5D2216B31600A6DE3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = wujungao;
 				TargetAttributes = {
-					167AAAA321FEAE8200E50C27 = {
+					16324A642216B31600A6DE3B = {
 						CreatedOnToolsVersion = 10.1;
-						SystemCapabilities = {
-							com.apple.Sandbox = {
-								enabled = 0;
-							};
-						};
 					};
-					167AAAB921FEAE8200E50C27 = {
+					16324A7C2216B31600A6DE3B = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 167AAAA321FEAE8200E50C27;
+						TestTargetID = 16324A642216B31600A6DE3B;
 					};
-					167AAAC421FEAE8200E50C27 = {
+					16324A872216B31600A6DE3B = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 167AAAA321FEAE8200E50C27;
+						TestTargetID = 16324A642216B31600A6DE3B;
+					};
+					16324A9D2216B34700A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					16324AB22216B34800A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16324A9D2216B34700A6DE3B;
+					};
+					16324ABD2216B34800A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16324A9D2216B34700A6DE3B;
+					};
+					16324AD12216B3B200A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					16324AE82216B3B200A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16324AD12216B3B200A6DE3B;
+					};
+					16324AF32216B3B200A6DE3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16324AD12216B3B200A6DE3B;
 					};
 				};
 			};
-			buildConfigurationList = 167AAA9F21FEAE8100E50C27 /* Build configuration list for PBXProject "EnhanceAppRobust" */;
+			buildConfigurationList = 16324A602216B31600A6DE3B /* Build configuration list for PBXProject "EnhanceAppRobust" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -321,36 +664,90 @@
 				en,
 				Base,
 			);
-			mainGroup = 167AAA9B21FEAE8100E50C27;
-			productRefGroup = 167AAAA521FEAE8200E50C27 /* Products */;
+			mainGroup = 16324A5C2216B31600A6DE3B;
+			productRefGroup = 16324A662216B31600A6DE3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				167AAAA321FEAE8200E50C27 /* EnhanceAppRobust */,
-				167AAAB921FEAE8200E50C27 /* EnhanceAppRobustTests */,
-				167AAAC421FEAE8200E50C27 /* EnhanceAppRobustUITests */,
+				16324A642216B31600A6DE3B /* EnhanceAppRobust */,
+				16324A7C2216B31600A6DE3B /* EnhanceAppRobustTests */,
+				16324A872216B31600A6DE3B /* EnhanceAppRobustUITests */,
+				16324A9D2216B34700A6DE3B /* EnhanceAppRobust-OSX */,
+				16324AB22216B34800A6DE3B /* EnhanceAppRobust-OSXTests */,
+				16324ABD2216B34800A6DE3B /* EnhanceAppRobust-OSXUITests */,
+				16324AD12216B3B200A6DE3B /* EnhanceAppRobust-iOS */,
+				16324AE82216B3B200A6DE3B /* EnhanceAppRobust-iOSTests */,
+				16324AF32216B3B200A6DE3B /* EnhanceAppRobust-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		167AAAA221FEAE8200E50C27 /* Resources */ = {
+		16324A632216B31600A6DE3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167AAAAE21FEAE8200E50C27 /* Assets.xcassets in Resources */,
-				167AAAB121FEAE8200E50C27 /* Main.storyboard in Resources */,
+				16324A752216B31600A6DE3B /* LaunchScreen.storyboard in Resources */,
+				16324A722216B31600A6DE3B /* Assets.xcassets in Resources */,
+				16324A702216B31600A6DE3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAB821FEAE8200E50C27 /* Resources */ = {
+		16324A7B2216B31600A6DE3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAC321FEAE8200E50C27 /* Resources */ = {
+		16324A862216B31600A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324A9C2216B34700A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AA72216B34700A6DE3B /* Assets.xcassets in Resources */,
+				16324AAA2216B34700A6DE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AB12216B34800A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324ABC2216B34800A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AD02216B3B200A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AE12216B3B200A6DE3B /* LaunchScreen.storyboard in Resources */,
+				16324ADE2216B3B200A6DE3B /* Assets.xcassets in Resources */,
+				16324ADC2216B3B200A6DE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AE72216B3B200A6DE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AF22216B3B200A6DE3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,71 +757,197 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		167AAAA021FEAE8200E50C27 /* Sources */ = {
+		16324A612216B31600A6DE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167AAAAC21FEAE8200E50C27 /* ViewController.m in Sources */,
-				1647ACE921FF0A7F00D72848 /* NSString+Swizzled.m in Sources */,
-				167AAAB421FEAE8200E50C27 /* main.m in Sources */,
-				167AAAA921FEAE8200E50C27 /* AppDelegate.m in Sources */,
-				1647ACE121FF0A7F00D72848 /* ExceptionCatchManager.m in Sources */,
-				1647ACEA21FF0A7F00D72848 /* NSObject+CCategory.m in Sources */,
-				1647ACE621FF0A7F00D72848 /* NSObject+Swizzled.m in Sources */,
-				1647ACE421FF0A7F00D72848 /* NSMutableString+Swizzled.m in Sources */,
-				1647ACE521FF0A7F00D72848 /* NSMutableArray+Swizzled.m in Sources */,
-				1647ACEB21FF0A7F00D72848 /* SwizzleMethodManager.m in Sources */,
-				1647ACE321FF0A7F00D72848 /* NSArray+Swizzled.m in Sources */,
-				1647ACE221FF0A7F00D72848 /* BSBacktraceLogger.m in Sources */,
-				1647ACE721FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m in Sources */,
-				1647ACE821FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m in Sources */,
+				16324A6D2216B31600A6DE3B /* ViewController.m in Sources */,
+				16324B392216B40300A6DE3B /* NSString+Swizzled.m in Sources */,
+				16324A782216B31600A6DE3B /* main.m in Sources */,
+				16324A6A2216B31600A6DE3B /* AppDelegate.m in Sources */,
+				16324B212216B40300A6DE3B /* ExceptionCatchManager.m in Sources */,
+				16324B3C2216B40300A6DE3B /* NSObject+CCategory.m in Sources */,
+				16324B302216B40300A6DE3B /* NSObject+Swizzled.m in Sources */,
+				16324B2A2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */,
+				16324B2D2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */,
+				16324B3F2216B40300A6DE3B /* SwizzleMethodManager.m in Sources */,
+				16324B272216B40300A6DE3B /* NSArray+Swizzled.m in Sources */,
+				16324B242216B40300A6DE3B /* BSBacktraceLogger.m in Sources */,
+				16324B332216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */,
+				16324B362216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAB621FEAE8200E50C27 /* Sources */ = {
+		16324A792216B31600A6DE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167AAABF21FEAE8200E50C27 /* EnhanceAppRobustTests.m in Sources */,
+				16324A822216B31600A6DE3B /* EnhanceAppRobustTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		167AAAC121FEAE8200E50C27 /* Sources */ = {
+		16324A842216B31600A6DE3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				167AAACA21FEAE8200E50C27 /* EnhanceAppRobustUITests.m in Sources */,
+				16324A8D2216B31600A6DE3B /* EnhanceAppRobustUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324A9A2216B34700A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AA52216B34700A6DE3B /* ViewController.m in Sources */,
+				16324B3A2216B40300A6DE3B /* NSString+Swizzled.m in Sources */,
+				16324AAD2216B34700A6DE3B /* main.m in Sources */,
+				16324AA22216B34700A6DE3B /* AppDelegate.m in Sources */,
+				16324B222216B40300A6DE3B /* ExceptionCatchManager.m in Sources */,
+				16324B3D2216B40300A6DE3B /* NSObject+CCategory.m in Sources */,
+				16324B312216B40300A6DE3B /* NSObject+Swizzled.m in Sources */,
+				16324B2B2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */,
+				16324B2E2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */,
+				16324B402216B40300A6DE3B /* SwizzleMethodManager.m in Sources */,
+				16324B282216B40300A6DE3B /* NSArray+Swizzled.m in Sources */,
+				16324B252216B40300A6DE3B /* BSBacktraceLogger.m in Sources */,
+				16324B342216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */,
+				16324B372216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AAF2216B34800A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AB82216B34800A6DE3B /* EnhanceAppRobust_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324ABA2216B34800A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AC32216B34800A6DE3B /* EnhanceAppRobust_OSXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324ACE2216B3B200A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AD92216B3B200A6DE3B /* ViewController.m in Sources */,
+				16324B3B2216B40300A6DE3B /* NSString+Swizzled.m in Sources */,
+				16324AE42216B3B200A6DE3B /* main.m in Sources */,
+				16324AD62216B3B200A6DE3B /* AppDelegate.m in Sources */,
+				16324B232216B40300A6DE3B /* ExceptionCatchManager.m in Sources */,
+				16324B3E2216B40300A6DE3B /* NSObject+CCategory.m in Sources */,
+				16324B322216B40300A6DE3B /* NSObject+Swizzled.m in Sources */,
+				16324B2C2216B40300A6DE3B /* NSMutableString+Swizzled.m in Sources */,
+				16324B2F2216B40300A6DE3B /* NSMutableArray+Swizzled.m in Sources */,
+				16324B412216B40300A6DE3B /* SwizzleMethodManager.m in Sources */,
+				16324B292216B40300A6DE3B /* NSArray+Swizzled.m in Sources */,
+				16324B262216B40300A6DE3B /* BSBacktraceLogger.m in Sources */,
+				16324B352216B40300A6DE3B /* NSMutableIndexSet+Swizzled.m in Sources */,
+				16324B382216B40300A6DE3B /* NSMutableDictionary+Swizzled.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AE52216B3B200A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AEE2216B3B200A6DE3B /* EnhanceAppRobust_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16324AF02216B3B200A6DE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16324AF92216B3B300A6DE3B /* EnhanceAppRobust_iOSUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		167AAABC21FEAE8200E50C27 /* PBXTargetDependency */ = {
+		16324A7F2216B31600A6DE3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167AAAA321FEAE8200E50C27 /* EnhanceAppRobust */;
-			targetProxy = 167AAABB21FEAE8200E50C27 /* PBXContainerItemProxy */;
+			target = 16324A642216B31600A6DE3B /* EnhanceAppRobust */;
+			targetProxy = 16324A7E2216B31600A6DE3B /* PBXContainerItemProxy */;
 		};
-		167AAAC721FEAE8200E50C27 /* PBXTargetDependency */ = {
+		16324A8A2216B31600A6DE3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 167AAAA321FEAE8200E50C27 /* EnhanceAppRobust */;
-			targetProxy = 167AAAC621FEAE8200E50C27 /* PBXContainerItemProxy */;
+			target = 16324A642216B31600A6DE3B /* EnhanceAppRobust */;
+			targetProxy = 16324A892216B31600A6DE3B /* PBXContainerItemProxy */;
+		};
+		16324AB52216B34800A6DE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16324A9D2216B34700A6DE3B /* EnhanceAppRobust-OSX */;
+			targetProxy = 16324AB42216B34800A6DE3B /* PBXContainerItemProxy */;
+		};
+		16324AC02216B34800A6DE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16324A9D2216B34700A6DE3B /* EnhanceAppRobust-OSX */;
+			targetProxy = 16324ABF2216B34800A6DE3B /* PBXContainerItemProxy */;
+		};
+		16324AEB2216B3B200A6DE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16324AD12216B3B200A6DE3B /* EnhanceAppRobust-iOS */;
+			targetProxy = 16324AEA2216B3B200A6DE3B /* PBXContainerItemProxy */;
+		};
+		16324AF62216B3B300A6DE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16324AD12216B3B200A6DE3B /* EnhanceAppRobust-iOS */;
+			targetProxy = 16324AF52216B3B300A6DE3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		167AAAAF21FEAE8200E50C27 /* Main.storyboard */ = {
+		16324A6E2216B31600A6DE3B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				167AAAB021FEAE8200E50C27 /* Base */,
+				16324A6F2216B31600A6DE3B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16324A732216B31600A6DE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16324A742216B31600A6DE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		16324AA82216B34700A6DE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16324AA92216B34700A6DE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16324ADA2216B3B200A6DE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16324ADB2216B3B200A6DE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16324ADF2216B3B200A6DE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16324AE02216B3B200A6DE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		167AAACC21FEAE8200E50C27 /* Debug */ = {
+		16324A8F2216B31600A6DE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,7 +979,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -475,15 +998,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		167AAACD21FEAE8200E50C27 /* Release */ = {
+		16324A902216B31600A6DE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -515,7 +1038,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -528,157 +1051,438 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16324A922216B31600A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16324A932216B31600A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16324A952216B31600A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust.app/EnhanceAppRobust";
+			};
+			name = Debug;
+		};
+		16324A962216B31600A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust.app/EnhanceAppRobust";
+			};
+			name = Release;
+		};
+		16324A982216B31600A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnhanceAppRobust;
+			};
+			name = Debug;
+		};
+		16324A992216B31600A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnhanceAppRobustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnhanceAppRobust;
+			};
+			name = Release;
+		};
+		16324AC62216B34800A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EnhanceAppRobust-OSX/EnhanceAppRobust_OSX.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EnhanceAppRobust/**";
+				INFOPLIST_FILE = "EnhanceAppRobust-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16324AC72216B34800A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EnhanceAppRobust-OSX/EnhanceAppRobust_OSX.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EnhanceAppRobust/**";
+				INFOPLIST_FILE = "EnhanceAppRobust-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		167AAACF21FEAE8200E50C27 /* Debug */ = {
+		16324AC92216B34800A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EnhanceAppRobust-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust-OSX.app/Contents/MacOS/EnhanceAppRobust-OSX";
+			};
+			name = Debug;
+		};
+		16324ACA2216B34800A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EnhanceAppRobust-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust-OSX.app/Contents/MacOS/EnhanceAppRobust-OSX";
+			};
+			name = Release;
+		};
+		16324ACC2216B34800A6DE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EnhanceAppRobust-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "EnhanceAppRobust-OSX";
+			};
+			name = Debug;
+		};
+		16324ACD2216B34800A6DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EnhanceAppRobust-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "EnhanceAppRobust-OSX";
+			};
+			name = Release;
+		};
+		16324AFC2216B3B300A6DE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EnhanceAppRobust";
+				INFOPLIST_FILE = "EnhanceAppRobust-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobust;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		167AAAD021FEAE8200E50C27 /* Release */ = {
+		16324AFD2216B3B300A6DE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EnhanceAppRobust";
+				INFOPLIST_FILE = "EnhanceAppRobust-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobust;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		167AAAD221FEAE8200E50C27 /* Debug */ = {
+		16324AFF2216B3B300A6DE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobustTests/Info.plist;
+				INFOPLIST_FILE = "EnhanceAppRobust-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust.app/Contents/MacOS/EnhanceAppRobust";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust-iOS.app/EnhanceAppRobust-iOS";
 			};
 			name = Debug;
 		};
-		167AAAD321FEAE8200E50C27 /* Release */ = {
+		16324B002216B3B300A6DE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobustTests/Info.plist;
+				INFOPLIST_FILE = "EnhanceAppRobust-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust.app/Contents/MacOS/EnhanceAppRobust";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnhanceAppRobust-iOS.app/EnhanceAppRobust-iOS";
 			};
 			name = Release;
 		};
-		167AAAD521FEAE8200E50C27 /* Debug */ = {
+		16324B022216B3B300A6DE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobustUITests/Info.plist;
+				INFOPLIST_FILE = "EnhanceAppRobust-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = EnhanceAppRobust;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EnhanceAppRobust-iOS";
 			};
 			name = Debug;
 		};
-		167AAAD621FEAE8200E50C27 /* Release */ = {
+		16324B032216B3B300A6DE3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EnhanceAppRobustUITests/Info.plist;
+				INFOPLIST_FILE = "EnhanceAppRobust-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.proj.EnhanceAppRobustUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.proj.EnhanceAppRobust-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = EnhanceAppRobust;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EnhanceAppRobust-iOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		167AAA9F21FEAE8100E50C27 /* Build configuration list for PBXProject "EnhanceAppRobust" */ = {
+		16324A602216B31600A6DE3B /* Build configuration list for PBXProject "EnhanceAppRobust" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167AAACC21FEAE8200E50C27 /* Debug */,
-				167AAACD21FEAE8200E50C27 /* Release */,
+				16324A8F2216B31600A6DE3B /* Debug */,
+				16324A902216B31600A6DE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167AAACE21FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobust" */ = {
+		16324A912216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167AAACF21FEAE8200E50C27 /* Debug */,
-				167AAAD021FEAE8200E50C27 /* Release */,
+				16324A922216B31600A6DE3B /* Debug */,
+				16324A932216B31600A6DE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167AAAD121FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobustTests" */ = {
+		16324A942216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobustTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167AAAD221FEAE8200E50C27 /* Debug */,
-				167AAAD321FEAE8200E50C27 /* Release */,
+				16324A952216B31600A6DE3B /* Debug */,
+				16324A962216B31600A6DE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		167AAAD421FEAE8200E50C27 /* Build configuration list for PBXNativeTarget "EnhanceAppRobustUITests" */ = {
+		16324A972216B31600A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobustUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				167AAAD521FEAE8200E50C27 /* Debug */,
-				167AAAD621FEAE8200E50C27 /* Release */,
+				16324A982216B31600A6DE3B /* Debug */,
+				16324A992216B31600A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324AC52216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324AC62216B34800A6DE3B /* Debug */,
+				16324AC72216B34800A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324AC82216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324AC92216B34800A6DE3B /* Debug */,
+				16324ACA2216B34800A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324ACB2216B34800A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324ACC2216B34800A6DE3B /* Debug */,
+				16324ACD2216B34800A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324AFB2216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324AFC2216B3B300A6DE3B /* Debug */,
+				16324AFD2216B3B300A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324AFE2216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324AFF2216B3B300A6DE3B /* Debug */,
+				16324B002216B3B300A6DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16324B012216B3B300A6DE3B /* Build configuration list for PBXNativeTarget "EnhanceAppRobust-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16324B022216B3B300A6DE3B /* Debug */,
+				16324B032216B3B300A6DE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 167AAA9C21FEAE8100E50C27 /* Project object */;
+	rootObject = 16324A5D2216B31600A6DE3B /* Project object */;
 }
