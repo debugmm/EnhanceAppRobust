@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161F08F22213FF0300AE276F /* EARHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EARHeader.h; sourceTree = "<group>"; };
 		1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionCatchManager.m; sourceTree = "<group>"; };
 		1647ACC821FF0A7F00D72848 /* ExceptionCatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionCatchManager.h; sourceTree = "<group>"; };
 		1647ACCA21FF0A7F00D72848 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
@@ -114,10 +115,11 @@
 		1647ACC521FF0A7F00D72848 /* EnhanceAppRobust */ = {
 			isa = PBXGroup;
 			children = (
-				1647ACC621FF0A7F00D72848 /* ExceptionCatchManager */,
 				1647ACC921FF0A7F00D72848 /* BacktraceLogger */,
 				1647ACCC21FF0A7F00D72848 /* Categories */,
+				1647ACC621FF0A7F00D72848 /* ExceptionCatchManager */,
 				1647ACDE21FF0A7F00D72848 /* SwizzledManager */,
+				161F08F22213FF0300AE276F /* EARHeader.h */,
 			);
 			path = EnhanceAppRobust;
 			sourceTree = "<group>";
@@ -125,8 +127,8 @@
 		1647ACC621FF0A7F00D72848 /* ExceptionCatchManager */ = {
 			isa = PBXGroup;
 			children = (
-				1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */,
 				1647ACC821FF0A7F00D72848 /* ExceptionCatchManager.h */,
+				1647ACC721FF0A7F00D72848 /* ExceptionCatchManager.m */,
 			);
 			path = ExceptionCatchManager;
 			sourceTree = "<group>";
@@ -143,23 +145,23 @@
 		1647ACCC21FF0A7F00D72848 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				1647ACCD21FF0A7F00D72848 /* NSMutableArray+Swizzled.h */,
-				1647ACCE21FF0A7F00D72848 /* NSObject+Swizzled.h */,
-				1647ACCF21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.h */,
+				1647ACD921FF0A7F00D72848 /* NSArray+Swizzled.h */,
 				1647ACD021FF0A7F00D72848 /* NSArray+Swizzled.m */,
+				1647ACCD21FF0A7F00D72848 /* NSMutableArray+Swizzled.h */,
+				1647ACD521FF0A7F00D72848 /* NSMutableArray+Swizzled.m */,
+				1647ACCF21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.h */,
+				1647ACDA21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m */,
 				1647ACD121FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.h */,
+				1647ACD821FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m */,
+				1647ACDD21FF0A7F00D72848 /* NSMutableString+Swizzled.h */,
 				1647ACD221FF0A7F00D72848 /* NSMutableString+Swizzled.m */,
 				1647ACD321FF0A7F00D72848 /* NSObject+CCategory.h */,
-				1647ACD421FF0A7F00D72848 /* NSString+Swizzled.h */,
-				1647ACD521FF0A7F00D72848 /* NSMutableArray+Swizzled.m */,
-				1647ACD621FF0A7F00D72848 /* SwizzledHeader.h */,
-				1647ACD721FF0A7F00D72848 /* NSObject+Swizzled.m */,
-				1647ACD821FF0A7F00D72848 /* NSMutableIndexSet+Swizzled.m */,
-				1647ACD921FF0A7F00D72848 /* NSArray+Swizzled.h */,
-				1647ACDA21FF0A7F00D72848 /* NSMutableDictionary+Swizzled.m */,
-				1647ACDB21FF0A7F00D72848 /* NSString+Swizzled.m */,
 				1647ACDC21FF0A7F00D72848 /* NSObject+CCategory.m */,
-				1647ACDD21FF0A7F00D72848 /* NSMutableString+Swizzled.h */,
+				1647ACCE21FF0A7F00D72848 /* NSObject+Swizzled.h */,
+				1647ACD721FF0A7F00D72848 /* NSObject+Swizzled.m */,
+				1647ACD421FF0A7F00D72848 /* NSString+Swizzled.h */,
+				1647ACDB21FF0A7F00D72848 /* NSString+Swizzled.m */,
+				1647ACD621FF0A7F00D72848 /* SwizzledHeader.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -167,8 +169,8 @@
 		1647ACDE21FF0A7F00D72848 /* SwizzledManager */ = {
 			isa = PBXGroup;
 			children = (
-				1647ACDF21FF0A7F00D72848 /* SwizzleMethodManager.m */,
 				1647ACE021FF0A7F00D72848 /* SwizzleMethodManager.h */,
+				1647ACDF21FF0A7F00D72848 /* SwizzleMethodManager.m */,
 			);
 			path = SwizzledManager;
 			sourceTree = "<group>";
@@ -295,6 +297,11 @@
 				TargetAttributes = {
 					167AAAA321FEAE8200E50C27 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					167AAAB921FEAE8200E50C27 = {
 						CreatedOnToolsVersion = 10.1;
@@ -532,7 +539,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = EnhanceAppRobust/EnhanceAppRobust.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;
@@ -550,7 +556,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = EnhanceAppRobust/EnhanceAppRobust.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EnhanceAppRobust/Info.plist;

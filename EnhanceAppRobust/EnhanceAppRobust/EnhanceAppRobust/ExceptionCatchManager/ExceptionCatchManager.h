@@ -29,7 +29,12 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param exception an nonull exception obj
  */
--(void)catchException:(nonnull NSException *)exception;
+-(void)catchException:(nullable NSException *)exception;
+
+/**
+ @brief 日志文件存放目录路径（此路径末尾未包含反斜杠/）
+ */
+@property(nonatomic,nullable,copy,readonly)NSString *logFilesDirectoryPath;
 
 @end
 

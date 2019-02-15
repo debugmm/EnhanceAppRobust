@@ -44,18 +44,24 @@
 #pragma mark - pub method
 -(void)swizzlingInstanceMethod{
     
-    if(!self.enabledSwizzled){
-        [self _swizzlingInstanceMethod];
-        self.enabledSwizzled=YES;
-    }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        if(!self.enabledSwizzled){
+            [self _swizzlingInstanceMethod];
+            self.enabledSwizzled=YES;
+        }
+    });
 }
 
 -(void)recoverSwizzledInstanceMethod{
     
-    if(self.enabledSwizzled){
-        [self _recoverSwizzledInstanceMethod];
-        self.enabledSwizzled=NO;
-    }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        if(self.enabledSwizzled){
+            [self _recoverSwizzledInstanceMethod];
+            self.enabledSwizzled=NO;
+        }
+    });
 }
 
 #pragma mark - private
